@@ -1,0 +1,83 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* display: flex;
+    flex-direction: column; */
+    font-family: Century;
+    color: #1c1930;
+    width: 100vw;
+    min-width: 900px;
+    height: 100vh;
+    padding: 20% 10%;
+    background: url(./patel.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    overflow: hidden;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 50px;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    line-height: 1.5;
+    /* box-shadow: 10px 0px 10px rgba(51, 51, 51, 0.2); */
+    transition: 1s ease;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.duration {
+    font-size: 2rem;
+    padding: 2% 2%;
+    color: #6c697c;
+}
+
+.quote {
+    padding: 2% 0;
+    font-size: 2rem;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 50px;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 1.5;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    position: absolute;
+    bottom: -200%;
+    z-index: 10;
+    transition: 1s ease;
+}
+ 
+.wrap {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 0;
+    transform: translate(0, 20%);
+    z-index: 100;
+}
